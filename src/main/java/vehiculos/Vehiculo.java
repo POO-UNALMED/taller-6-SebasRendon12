@@ -12,14 +12,14 @@ public class Vehiculo {
 	static int totalVehiculos;
 
 	public Vehiculo(String placa, int puertas, int velocidadMaxima, String nombre, int precio, int peso,
-			String tracción, Fabricante fabricante) {
+			String traccion, Fabricante fabricante) {
 		this.placa = placa;
 		this.puertas = puertas;
 		this.velocidadMaxima = velocidadMaxima;
 		this.nombre = nombre;
 		this.precio = precio;
 		this.peso = peso;
-		this.traccion = tracción;
+		this.traccion = traccion;
 		this.fabricante = fabricante;
 		totalVehiculos++;
 		fabricante.pais.numeroVentas++;
@@ -91,8 +91,8 @@ public class Vehiculo {
 		return traccion;
 	}
 
-	public void setTraccion(String tracción) {
-		this.traccion = tracción;
+	public void setTraccion(String traccion) {
+		this.traccion = traccion;
 	}
 
 	public Fabricante getFabricante() {
